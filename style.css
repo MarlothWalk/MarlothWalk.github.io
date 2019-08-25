@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Oregano&display=swap')
+
+html,body
+{
+	overflow-x:hidden;
+}
+
+section
+{
+	display:inline-block;
+	width:100%;
+}
+#hero
+{
+	height:100vh;
+	position:relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/herobg.png);
+	background-size: cover;
+	background-position:center bottom;
+}
+#hero h1
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	font-family:Oregano;
+	font-size: 10vw;
+	width:80%;
+}
+#hero .language
+{
+	color:white;
+	font-family:Calibri;
+	position:absolute;
+	right:2vw;
+	top:2vw;
+	cursor:pointer;
+	font-size: 4vw;
+}
+#hero .language:hover
+{
+	text-decoration: underline;
+}
+
+#description
+{
+	background:#BB9B7F;
+	text-align:center;
+	font-family: Oregano;
+	font-size: 3vw;	
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}
+#description p, #description ul
+{
+	padding: 3vw 0;
+	width:80%;
+	margin: 0 auto;
+}
+#description img
+{
+	padding:1em;
+	width:20%;
+}
+#description ul li
+{
+	width:100%;	
+	margin: 0.5em auto;
+	display:block;
+	font-size: 3vw;
+}
+#description ul li:before
+{
+	content:'•';
+	padding-right:5px;
+}
+.details
+{
+	text-align:left;
+}
+#intro
+{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/herobg.png);
+	background-size: 100%;
+	background-position:center bottom;
+	padding:10vw 0;	
+	text-align:center;
+	background-repeat:no-repeat;	
+	background-position:center bottom;
+}
+#intro h1
+{
+	font-family:Oregano;
+	font-size: 8vw;	
+	text-shadow: -1px -1px 2px black;
+}
+#intro .spacer
+{
+	padding-bottom: 8vw;
+}
+#intro p
+{
+	font-size: 2vw;
+	font-family: Oregano;	
+	text-shadow: 0px -1px 1px black;
+	color:white;
+}
+#trees
+{
+	font-family:Calibri;
+}
+#trees h1
+{	
+	color:black;
+	font-family: Oregano;
+	font-size:9vw;
+	padding-top:5vw;
+	padding-left: 5vw;
+	width: 90vw;
+}
+#trees h2
+{
+	font-family:Oregano;
+	color:black;
+	font-size:3vw;	
+	padding-left:5vw;
+	padding-bottom: 5vw;
+	width: 90vw;
+}
+#trees p
+{
+	padding-bottom: 5vw;
+	padding-left:5vw;
+	width: 90vw;
+	font-size: 1.8vw;
+}
+#trees a
+{
+	padding-left:5vw;
+	width: 90vw;
+}
+#trees .extra
+{
+	padding-top: 5vw;
+}
+#trees .extra img
+{
+	padding-bottom: 5vw;
+	width:90vw;
+	margin:0 auto;
+	display:block;
+}
+#outro
+{
+	padding-top:0;
+	padding-bottom: 5vw;
+	font-family:Oregano;
+	text-align:center;
+}
+#outro img
+{
+	width: 90vw;
+	padding-top: 5vw;
+}
+#outro p
+{
+	padding-top: 5vw;
+	font-family: Calibri;
+	width: 90vw;
+	margin: 0 auto;
+}
+#outro h1
+{
+	width: 90vw;
+	margin: 0 auto;	
+}
+#poem
+{
+	width:100%;
+	height:66vh;
+	margin: 0 auto;
+	padding-top: 3vw;	
+	position:relative;	
+}
+#outro .tortoise
+{
+	position:absolute;
+	top: 7%;
+    left: 60%;
+    width: 10vh;
+}
+#outro .giraffe
+{
+	position: absolute;
+    top: 8%;
+    left: 25%;
+    width: 15vh;
+}
+#outro #poem .animals
+{
+	width:90vw;
+	position:absolute;	
+	left:50%;
+	transform: translate(-50%, 0);
+
+	top:62%;
+}
+#outro #poem p
+{
+	width:100%;	
+	font-size: 6vw;
+	position:absolute;
+	font-family:Oregano;
+}
+#poem .one
+{
+	left:50%;
+	transform: translate(-50%,0);
+
+	top:0;
+}
+#poem .two
+{
+	left:50%;
+	transform: translate(-50%, 0);
+
+	top: 21%;
+}
+#poem .three
+{
+	left:50%;
+	transform: translate(-50%, 0);
+
+	top:56%;
+}
+#outro h1
+{
+	color:black;
+	font-size: 12vw;
+	padding-top: 6vw;
+}
+footer img
+{
+	width:100%;
+}
+/* Fonts and colors */
+h1
+{
+	color:white;
+}
+h2
+{
+	color:white;
+}
+em
+{
+	font-weight:bold;
+}
