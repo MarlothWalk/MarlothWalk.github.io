@@ -140,6 +140,7 @@ section
 {
 	padding-left:5vw;
 	width: 90vw;
+	overflow-wrap:break-word;
 }
 #trees .extra
 {
