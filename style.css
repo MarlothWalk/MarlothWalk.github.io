@@ -8,6 +8,10 @@ section
 	display:inline-block;
 	width:100%;
 }
+.hide
+{
+	display:none;
+}
 #hero
 {
 	height:100vh;
@@ -42,7 +46,7 @@ section
 	text-decoration: underline;
 }
 
-#description
+section.description
 {
 	background:#BB9B7F;
 	text-align:center;
@@ -51,25 +55,25 @@ section
 	padding-top: 5vw;
 	padding-bottom: 5vw;
 }
-#description p, #description ul
+section.description p, section.description ul
 {
 	padding: 3vw 0;
 	width:80%;
 	margin: 0 auto;
 }
-#description img
+section.description img
 {
 	padding:1em;
 	width:20%;
 }
-#description ul li
+section.description ul li
 {
 	width:100%;	
 	margin: 0.5em auto;
 	display:block;
 	font-size: 3vw;
 }
-#description ul li:before
+section.description ul li:before
 {
 	content:'•';
 	padding-right:5px;
@@ -78,7 +82,7 @@ section
 {
 	text-align:left;
 }
-#intro
+.intro
 {
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/herobg.png);
 	background-size: 100%;
@@ -88,17 +92,17 @@ section
 	background-repeat:no-repeat;	
 	background-position:center bottom;
 }
-#intro h1
+.intro h1
 {
 	font-family:Oregano;
 	font-size: 8vw;	
 	text-shadow: -1px -1px 2px black;
 }
-#intro .spacer
+.intro .spacer
 {
 	padding-bottom: 8vw;
 }
-#intro p
+.intro p
 {
 	font-size: 2vw;
 	font-family: Oregano;	
@@ -151,26 +155,26 @@ section
 	margin:0 auto;
 	display:block;
 }
-#outro
+.outro
 {
 	padding-top:0;
 	padding-bottom: 5vw;
 	font-family:Oregano;
 	text-align:center;
 }
-#outro img
+.outro img
 {
 	width: 90vw;
 	padding-top: 5vw;
 }
-#outro p
+.outro p
 {
 	padding-top: 5vw;
 	font-family: Calibri;
 	width: 90vw;
 	margin: 0 auto;
 }
-#outro h1
+.outro h1
 {
 	width: 90vw;
 	margin: 0 auto;	
@@ -183,21 +187,21 @@ section
 	padding-top: 3vw;	
 	position:relative;	
 }
-#outro .tortoise
+.outro .tortoise
 {
 	position:absolute;
 	top: 7%;
     left: 60%;
     width: 10vh;
 }
-#outro .giraffe
+.outro .giraffe
 {
 	position: absolute;
     top: 8%;
     left: 25%;
     width: 15vh;
 }
-#outro #poem .animals
+.outro #poem .animals
 {
 	width:90vw;
 	position:absolute;	
@@ -206,7 +210,7 @@ section
 
 	top:62%;
 }
-#outro #poem p
+.outro #poem p
 {
 	width:100%;	
 	font-size: 6vw;
@@ -234,7 +238,7 @@ section
 
 	top:56%;
 }
-#outro h1
+.outro h1
 {
 	color:black;
 	font-size: 12vw;
