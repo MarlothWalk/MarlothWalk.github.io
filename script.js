@@ -4,14 +4,28 @@ function contentLoad()
 {
 	setLanguage('english')
 }
-
+currentLanguage = "english"
+function toggleLanguage()
+{
+	if (currentLanguage == "english")
+	{
+		currentLanguage = "afrikaans"
+		document.getElementById('changelanguage').innerHTML = "English"
+	}	
+	else
+	{
+		currentLanguage = "english"
+		document.getElementById('changelanguage').innerHTML = "Afrikaans"
+	}
+	setLanguage(currentLanguage)
+}
 function loadLanguage(language,func)
 {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    	languages['english'] = this.responseText;
-    	func();    	
+    	languages[language] = this.responseText;
+    	if (func) func();
     }
   };
   xhttp.open("GET", language+".txt", true);
@@ -19,6 +33,11 @@ function loadLanguage(language,func)
 }
 function setLanguage(name)
 {
+	hideClass('english')
+	hideClass('afrikaans')
+
+	var titles = {'english':'Marlothii Conservancy Self-Guided Tree Walk','afrikaans':'Marlothii Bewarea Self-Begeleide Boomwandeling Roete'}
+	document.title = titles[name];
 	let txt = languages[name];
 	let data = []
 	let trees = txt.split('--\r\n')
@@ -49,9 +68,28 @@ function setLanguage(name)
 				interesting:interesting
 			})	
 		}
-		
+		showClass(name);
 	}	
 	populateTrees(data);
+}
+function hideClass(cl)
+{
+	showClass(cl)
+	var elems = document.getElementsByClassName(cl)
+	for (let i =0;i <elems.length;i++)
+	{
+		let elem = elems[i];
+		elem.className = elem.className + " hide";
+	}
+}
+function showClass(cl)
+{
+	var elems = document.getElementsByClassName(cl)
+	for (let i =0;i <elems.length;i++)
+	{
+		let elem = elems[i];
+		elem.className = elem.className.replace('hide','')
+	}
 }
 function populateTrees(data)
 {
@@ -101,3 +139,4 @@ function populateTrees(data)
 	}
 }
 loadLanguage('english', () => {setLanguage('english')});
+loadLanguage('afrikaans');
