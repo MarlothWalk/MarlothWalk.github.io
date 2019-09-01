@@ -114,7 +114,8 @@ function populateTrees(data)
 			ecology.className = 'ecology';
 			let interesting = document.createElement('p');
 			interesting.className = 'interesting';
-			let other = document.createElement('p');		
+			let other = document.createElement('p');
+			other.className = "other";	
 			let link = document.createElement('a');
 			link.className = 'link';
 			link.setAttribute('href',tree.link)
