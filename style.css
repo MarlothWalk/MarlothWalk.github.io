@@ -28,7 +28,7 @@ section
 	transform:translate(-50%,-50%);
 	text-align:center;
 	font-family:Oregano;
-	font-size: 10vw;
+	font-size: 3em;
 	width:80%;
 }
 #hero .language
@@ -36,10 +36,10 @@ section
 	color:white;
 	font-family:Calibri;
 	position:absolute;
-	right:2vw;
-	top:2vw;
+	right:1em;
+	top:1em;
 	cursor:pointer;
-	font-size: 4vw;
+	font-size: 1em;
 }
 #hero .language:hover
 {
@@ -51,27 +51,28 @@ section.description
 	background:#BB9B7F;
 	text-align:center;
 	font-family: Oregano;
-	font-size: 3vw;	
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+	font-size: 1.1em;	
+	padding-top: 2em;
+	padding-bottom: 1em;
 }
 section.description p, section.description ul
 {
-	padding: 3vw 0;
+	padding: 0.5em 0;
 	width:80%;
 	margin: 0 auto;
+	font-size: 1.2em;
 }
 section.description img
 {
 	padding:1em;
-	width:20%;
+	width:4em;
 }
 section.description ul li
 {
 	width:100%;	
 	margin: 0.5em auto;
 	display:block;
-	font-size: 3vw;
+	font-size: 1em;
 }
 section.description ul li:before
 {
@@ -87,7 +88,7 @@ section.description ul li:before
 	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/herobg.png);
 	background-size: 100%;
 	background-position:center bottom;
-	padding:10vw 0;	
+	padding:3em 0;	
 	text-align:center;
 	background-repeat:no-repeat;	
 	background-position:center bottom;
@@ -95,16 +96,16 @@ section.description ul li:before
 .intro h1
 {
 	font-family:Oregano;
-	font-size: 8vw;	
+	font-size: 1.9em;	
 	text-shadow: -1px -1px 2px black;
 }
 .intro .spacer
 {
-	padding-bottom: 8vw;
+	padding-bottom: 2em;
 }
 .intro p
 {
-	font-size: 2vw;
+	font-size: 1em;
 	font-family: Oregano;	
 	text-shadow: 0px -1px 1px black;
 	color:white;
@@ -117,32 +118,37 @@ section.description ul li:before
 {	
 	color:black;
 	font-family: Oregano;
-	font-size:9vw;
-	padding-top:5vw;
-	padding-left: 5vw;
-	width: 90vw;
+	font-size:1.9em;
+	padding-top:1em;
+	padding-left: 1em;
+	width: 90%;
 }
 #trees h2
 {
 	font-family:Oregano;
 	color:black;
-	font-size:3vw;	
-	padding-left:5vw;
-	padding-bottom: 5vw;
-	width: 90vw;
+	font-size:1em;	
+	padding-left:2em;
+	padding-bottom: 1em;
+	width: 90%
 }
 #trees p
 {
-	padding-bottom: 5vw;
-	padding-left:5vw;
-	width: 90vw;
-	font-size: 1.8vw;
+	padding-bottom: 1em;
+	padding-left:2em;
+	width: 90%;
+	font-size: 1em;
+}
+#trees .other
+{
+	padding-bottom:0;
 }
 #trees a
 {
-	padding-left:5vw;
-	width: 90vw;
+	padding-left:3em;
+	width: 90%;
 	overflow-wrap:break-word;
+	font-size:0.8em;
 }
 #trees .extra
 {
@@ -169,7 +175,7 @@ section.description ul li:before
 }
 .outro p
 {
-	padding-top: 5vw;
+	padding-top: 1em;
 	font-family: Calibri;
 	width: 90vw;
 	margin: 0 auto;
@@ -181,67 +187,44 @@ section.description ul li:before
 }
 #poem
 {
-	width:100%;
-	height:66vh;
+	width: 300px;
+	display:inline-block;
 	margin: 0 auto;
-	padding-top: 3vw;	
-	position:relative;	
+	padding-top: 1em;
+	text-align:center;
 }
 .outro .tortoise
 {
-	position:absolute;
-	top: 7%;
-    left: 60%;
-    width: 10vh;
+	width: 4em;
+	position:relative;
+	left:59px;
 }
 .outro .giraffe
 {
-	position: absolute;
-    top: 8%;
-    left: 25%;
-    width: 15vh;
+	width: 6em;
+	position:relative;
+	right: 43px;
+    bottom: 65px;
+    margin-bottom: -65px;
 }
 .outro #poem .animals
+{	
+	width:100%;
+}
+.outro #poem img
 {
-	width:90vw;
-	position:absolute;	
-	left:50%;
-	transform: translate(-50%, 0);
-
-	top:62%;
+	padding:0;
 }
 .outro #poem p
 {
 	width:100%;	
-	font-size: 6vw;
-	position:absolute;
+	font-size: 1.3em;
 	font-family:Oregano;
-}
-#poem .one
-{
-	left:50%;
-	transform: translate(-50%,0);
-
-	top:0;
-}
-#poem .two
-{
-	left:50%;
-	transform: translate(-50%, 0);
-
-	top: 21%;
-}
-#poem .three
-{
-	left:50%;
-	transform: translate(-50%, 0);
-
-	top:56%;
 }
 .outro h1
 {
 	color:black;
-	font-size: 12vw;
+	font-size: 2.4em;
 	padding-top: 6vw;
 }
 footer img
@@ -260,4 +243,41 @@ h2
 em
 {
 	font-weight:bold;
+}
+/*Media queries*/
+@media screen and (min-width: 769px) {
+	.intro h1{
+		font-size: 3em;
+	}
+	.intro p
+	{
+		font-size: 1em;
+	}
+	#trees .extra img
+	{
+		width: 400px;
+		margin:0;
+		margin-left: 2em;		
+	}
+	.outro img
+	{
+		width: 400px;
+	}
+	#trees
+	{		
+		width: 50%;
+		margin: 0 auto;
+		display:block;
+	}
+	footer
+	{
+		text-align:center;
+		height: 100px;
+		overflow:hidden;
+	}
+	footer img
+	{
+		width:unset;
+		height:100%;			
+	}
 }
