@@ -47,7 +47,7 @@ Other links:
 http://pza.sanbi.org/senegalia-nigrescens
 --
 EXTRA
-<img src="images/seat.png"></img>
+<img src="images/seat.jpg"></img>
 <p>Have a seat under this lovely Weeping Boer Bean Tree. Information about this tree is found at number 9. For the moment, take in the scenery.</p>
 
 <p>Reeds grow along this stretch of the Crocodile River. They are a favourite food of elephants which are often seen here.</p>
@@ -79,8 +79,8 @@ Other links:
 http://pza.sanbi.org/schotia-brachypetala
 --
 EXTRA
-<p style="padding-top:1em;">As you walk toward the final tree, take note of the wonderful Marlothii specimens. A member of the Aloe family they were named after the German Botanist who catalogued plants in this area.</p>
-<img style="padding-bottom:0;" src="images/aloe.png" class="aloe">
+<p>As you walk toward the final tree, take note of the wonderful Marlothii specimens. A member of the Aloe family they were named after the German Botanist who catalogued plants in this area.</p>
+<img src="images/aloe.jpg" class="aloe">
 --
 Star Chestnut
 Number 10 (on the left as you emerge from the gully. There is another stand of 7 magnificent Marlothii Aloes opposite.)
