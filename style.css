@@ -164,11 +164,11 @@ section.description ul li:before
 }
 #trees .extra
 {
-	padding-top: 5vw;
+	padding-top: 1em;
 }
 #trees .extra img
-{
-	padding-bottom: 5vw;
+{	
+	padding-bottom:1em;
 	width:90vw;
 	margin:0 auto;
 	display:block;
