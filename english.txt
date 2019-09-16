@@ -4,7 +4,7 @@ Description: The Leadwood is one of the largest trees in Africa, capable of atta
 Ecology: It is a very long-lived but slow-growing tree. The leaves are eaten by elephant, giraffe, kudu and impala.
 Interesting points: The wood is extremely dense and heavy, hence its name. 
 Other links: 
-https://www.sabisabi.com/wildfacts/leadwood-tree/
+http://pza.sanbi.org/combretum-imberbe
 --
 Apple Leaf
 Number 2 (on the River side.)
@@ -20,7 +20,7 @@ Description: The Jackalberry can grow up to 20m high, with an average height of 
 Ecology: Animals such as nyalas, impalas, warthogs, baboons and hornbills eat the fruit. The leaves are eaten by elephants, rhinos, giraffes, buffaloes, and kudus. The larvae of the bushveld emperor butterfly also eat the leaves of this tree.
 Interesting points: It derives its name because the Jackalberry seeds are also found in the dung of jackals.
 Other links: 
-http://www.krugerpark.co.za/africa_jackalberry.html
+http://pza.sanbi.org/diospyros-mespiliformis
 --
 Zebrawood
 Number 4. (Approx. 20m on left.)
@@ -28,7 +28,7 @@ Description: Zebrawood or African Ebony, is a large shrub or small, straggling t
 Ecology: Its preferred habitat is mixed woodland and knob-thorn savanna where the trees often occur on rocky outcrops and termite mounds. 
 Interesting points: Elephants will destroy the tree to eat the roots.
 Other links: 
-https://www.operationwildflower.org.za
+http://home.intekom.com/ecotravel/plant-kingdom/trees/dalbergia-melanoxylon-zebrawood.htm
 --
 Bushveld False Thorn
 Number 5 (5m on left)
@@ -55,7 +55,7 @@ EXTRA
 <p>Continue walking through the Knob Thorn trees, looking for any giraffes who may be feeding.</p>
 --
 Red Bush Willow
-Number 7 (at the end of the poles on the right. River side.)
+Number 7 (100m at the end of upright poles. Riverside)
 Description: An attractive, deciduous, small tree 3-10m high, with a short, often curved trunk, and spreading irregular canopy.
 Ecology: It is a valuable fodder tree for browsing animals. Mature green leaves are eaten by kudu, bushbuck, eland, giraffe and elephant.
 Interesting points: Very hard wood which is resistant to borers and termites and useful for fencing poles.
@@ -83,7 +83,7 @@ EXTRA
 <img src="images/aloe.jpg" class="aloe">
 --
 Star Chestnut
-Number 10 (on the left as you emerge from the gully. There is another stand of 7 magnificent Marlothii Aloes opposite.)
+Number 10 (As you emerge from the gully, walk on 50m. There is another stand of 7 magnificent Marlothii Aloes opposite.)
 Description: This small squat thickset tree can grow up to 6m high and is deciduous. It has saucer-shaped, showy yellow flowers.
 Ecology: Birds, game and stock eat the seeds of this tree. Browsers eat the leaves and young stems.
 Interesting points: The bark of this tree provides good quality fibre which is used to weave fishing nets. Do not touch the seeds as they cause a rash.
