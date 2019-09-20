@@ -294,11 +294,16 @@ em
 }
 .myfacebooklink6
 {
-	display:block;
-	margin:0 auto;
-	width:180px;
-	height: 40px;
-	background:#4765b0;
-	border-radius: 10px;
-	border: 1px solid #5160ce;
+	display: block;
+    margin: 12px auto;
+    width: 160px;
+    background: linear-gradient(#7a94d7, #4a59cc);
+    border-radius: 10px;
+    border: 1px solid #5160ce;
+    line-height: 20px;
+    color: white;
+    font-family: Helvetica;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
