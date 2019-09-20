@@ -296,15 +296,16 @@ em
 {
     display: block;
     margin: 12px auto;
-    margin-bottom:0;
-    width: 160px;
+    margin-bottom: 0;
+    width: 250px;
     background: linear-gradient(#7a94d7, #4a59cc);
-    border-radius: 10px;
+    border-radius: 2px;
     border: 1px solid #5160ce;
-    line-height: 20px;
+    line-height: 16px;
     color: white;
     font-family: Helvetica;
-    padding: 10px;
+    font-size: 1em;
+    padding: 8px;
     cursor: pointer;
     font-weight: bold;
 }
