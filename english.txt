@@ -48,7 +48,7 @@ http://pza.sanbi.org/senegalia-nigrescens
 --
 EXTRA
 <img src="images/seat.jpg"></img>
-<p>Have a seat under this lovely Weeping Boer Bean Tree. Information about this tree is found at number 9. For the moment, take in the scenery.</p>
+<p>Have a seat under this lovely Weeping Boer Bean Tree. <em>Information about this tree is found at number 9.</em> For the moment, take in the scenery.</p>
 
 <p>Reeds grow along this stretch of the Crocodile River. They are a favourite food of elephants which are often seen here.</p>
 
