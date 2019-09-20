@@ -294,8 +294,9 @@ em
 }
 .myfacebooklink6
 {
-	display: block;
+    display: block;
     margin: 12px auto;
+    margin-bottom:0;
     width: 160px;
     background: linear-gradient(#7a94d7, #4a59cc);
     border-radius: 10px;
