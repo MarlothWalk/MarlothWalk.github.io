@@ -48,7 +48,7 @@ http://pza.sanbi.org/senegalia-nigrescens
 --
 EXTRA
 <img src="images/seat.jpg"></img>
-<p>Gaan sit onder die pragtige Huilboerboon.  Daar is inligting oor hierdie boom by Nommer 9. Geniet net die natuurskoon vir ‘n rukkie.</p>
+<p>Gaan sit onder die pragtige Huilboerboon.  <em>Daar is inligting oor hierdie boom by Nommer 9.</em> Geniet net die natuurskoon vir ‘n rukkie.</p>
 
 <p>Riete groei langs hierdie gedeelte van die Krolodilrivier. Dit is die gunstelingkos van die olifante wat dikwels hier gesien word.</p>
 
