@@ -1,0 +1,315 @@
+html,body
+{
+	overflow-x:hidden;
+}
+
+section
+{
+	width:100%;
+}
+.hide
+{
+	display:none;
+}
+#hero
+{
+	height:100vh;
+	position:relative;
+	background-size: cover;
+	background-position:center center;
+}
+@media screen and (min-width:700px)
+{
+	#hero
+	{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/herobg.jpg);	
+	}	
+}
+@media screen and (max-width:700px)
+{
+	#hero
+	{
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/herobg-mobile.jpg);	
+	}	
+}
+#hero h1
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	font-family:Oregano;
+	font-size: 3em;
+	width:80%;
+}
+#hero .languages
+{
+	color:white;
+	font-family:Calibri;
+	position:absolute;
+	right:1em;
+	top:1em;
+	cursor:pointer;
+	font-size: 1em;
+}
+#hero .languages span:hover
+{
+	text-decoration: underline;
+}
+#hero .languages span
+{
+	padding: 5px;
+}
+section.description
+{
+	background:#BB9B7F;
+	text-align:center;
+	font-family: Oregano;
+	font-size: 1.1em;	
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+section.description p, section.description ul
+{
+	padding: 0.5em 0;
+	width:80%;
+	margin: 0 auto;
+	font-size: 1.2em;
+}
+section.description img
+{
+	padding:1em;
+	width:4em;
+}
+section.description ul li
+{
+	width:100%;	
+	margin: 0.5em auto;
+	display:block;
+	font-size: 1em;
+}
+section.description ul li:before
+{
+	content:'•';
+	padding-right:5px;
+}
+.details
+{
+	text-align:left;
+}
+.intro
+{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/herobg.jpg);
+	background-size: 100%;	
+	padding:3em 0;	
+	text-align:center;
+	background-repeat:no-repeat;	
+	background-position:center bottom;
+}
+.intro h1
+{
+	font-family:Oregano;
+	font-size: 1.9em;	
+	text-shadow: -1px -1px 2px black;
+}
+.intro .spacer
+{
+	padding-bottom: 2em;
+}
+.intro p
+{
+	font-size: 1em;
+	font-family: Oregano;	
+	text-shadow: 0px -1px 1px black;
+	color:white;
+}
+#trees
+{
+	font-family:Calibri;
+}
+#trees h1
+{	
+	color:black;
+	font-family: Oregano;
+	font-size:1.9em;
+	padding-top:1em;
+	padding-left: 1em;
+	width: 90%;
+}
+#trees h2
+{
+	font-family:Oregano;
+	color:black;
+	font-size:1em;	
+	padding-left:2em;
+	padding-bottom: 1em;
+	width: 90%
+}
+#trees p
+{
+	padding-bottom: 1em;
+	padding-left:2em;
+	width: 90%;
+	font-size: 1em;
+}
+#trees .other
+{
+	padding-bottom:0;
+}
+#trees a
+{
+	padding-left:3em;
+	width: 90%;
+	overflow-wrap:break-word;
+	font-size:0.8em;
+}
+#trees .extra
+{
+	padding-top: 1em;
+}
+#trees .extra img
+{	
+	padding-bottom:1em;
+	width:90vw;
+	margin:0 auto;
+	display:block;
+}
+.outro
+{
+	padding-top:0;
+	padding-bottom: 5vw;
+	font-family:Oregano;
+	text-align:center;
+}
+.outro img
+{
+	width: 90vw;
+	padding-top: 5vw;
+}
+.outro p
+{
+	padding-top: 1em;
+	font-family: Calibri;
+	width: 90vw;
+	margin: 0 auto;
+}
+.outro h1
+{
+	width: 90vw;
+	margin: 0 auto;	
+}
+#poem
+{
+	width: 300px;
+	display:inline-block;
+	margin: 0 auto;
+	padding-top: 1em;
+	text-align:center;
+}
+.outro .tortoise
+{
+	width: 4em;
+	position:relative;
+	left:59px;
+}
+.outro .giraffe
+{
+	width: 6em;
+	position:relative;
+	right: 43px;
+    bottom: 65px;
+    margin-bottom: -65px;
+}
+.outro #poem .animals
+{	
+	width:100%;
+}
+.outro #poem img
+{
+	padding:0;
+}
+.outro #poem p
+{
+	width:100%;	
+	font-size: 1.3em;
+	font-family:Oregano;
+}
+.outro h1
+{
+	color:black;
+	font-size: 2.4em;
+	padding-top: 6vw;
+}
+footer img
+{
+	width:100%;
+}
+/* Fonts and colors */
+h1
+{
+	color:white;
+}
+h2
+{
+	color:white;
+}
+em
+{
+	font-weight:bold;
+}
+/*Media queries*/
+@media screen and (min-width: 769px) {
+	.intro h1{
+		font-size: 3em;
+	}
+	.intro p
+	{
+		font-size: 1em;
+	}
+	#trees .extra img
+	{
+		width: 400px;
+		margin:0;
+		margin-left: 2em;		
+	}
+	.outro img
+	{
+		width: 400px;
+	}
+	#trees
+	{		
+		width: 50%;
+		margin: 0 auto;
+		display:block;
+	}
+	footer
+	{
+		text-align:center;
+		height: 100px;
+		overflow:hidden;
+	}
+	footer img
+	{
+		width:unset;
+		height:100%;			
+	}
+}
+.myfacebooklink6
+{
+    display: block;
+    margin: 12px auto;
+    margin-bottom: 0;
+    width: 250px;
+    background: linear-gradient(#7a94d7, #4a59cc);
+    border-radius: 2px;
+    border: 1px solid #5160ce;
+    line-height: 16px;
+    color: white;
+    font-family: Helvetica;
+    font-size: 1em;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration:none;
+}
