@@ -43,7 +43,7 @@ section
 	font-size: 3em;
 	width:80%;
 }
-#hero .language
+#hero .languages
 {
 	color:white;
 	font-family:Calibri;
@@ -53,11 +53,14 @@ section
 	cursor:pointer;
 	font-size: 1em;
 }
-#hero .language:hover
+#hero .languages span:hover
 {
 	text-decoration: underline;
 }
-
+#hero .languages span
+{
+	padding: 5px;
+}
 section.description
 {
 	background:#BB9B7F;

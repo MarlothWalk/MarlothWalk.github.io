@@ -5,17 +5,23 @@ function contentLoad()
 	setLanguage('english')
 }
 currentLanguage = "english"
-function toggleLanguage()
+function toggleLanguage(elem)
 {
+	currentLanguage = elem.innerHTML.toLowerCase()
 	if (currentLanguage == "english")
 	{
-		currentLanguage = "afrikaans"
-		document.getElementById('changelanguage').innerHTML = "English"
+		document.getElementById('changelanguage').innerHTML = "Afrikaans"
+		document.getElementById('changelanguage2').innerHTML = "French"
 	}	
+	else if (currentLanguage == "afrikaans")
+	{
+		document.getElementById('changelanguage').innerHTML = "English"
+		document.getElementById('changelanguage2').innerHTML = "French"
+	}
 	else
 	{
-		currentLanguage = "english"
-		document.getElementById('changelanguage').innerHTML = "Afrikaans"
+		document.getElementById('changelanguage').innerHTML = "English"
+		document.getElementById('changelanguage2').innerHTML = "Afrikaans"
 	}
 	setLanguage(currentLanguage)
 }
@@ -35,8 +41,9 @@ function setLanguage(name)
 {
 	hideClass('english')
 	hideClass('afrikaans')
+	hideClass('french')
 
-	var titles = {'english':'Marlothii Conservancy Self-Guided Tree Walk','afrikaans':'Marlothii Bewarea Self-Begeleide Boomwandeling Roete'}
+	var titles = {'english':'Marlothii Conservancy Self-Guided Tree Walk','afrikaans':'Marlothii Bewarea Self-Begeleide Boomwandeling Roete','french':"Marlothii Conservancy ' Guide pour la promenade découverte des arbres de Marloth Park"}
 	document.title = titles[name];
 	let txt = languages[name];
 	let data = []
@@ -53,10 +60,19 @@ function setLanguage(name)
 		else{
 			let name = lines[0];
 			let location = lines[1];
-			let description = lines[2].replace('Description:','<em>Description:</em>');
-			let ecology = lines[3].replace('Ecology:','<em>Ecology:</em>');;
-			let interesting = lines[4].replace('Interesting points:','<em>Interesting points:</em>');
-			let other = lines[5].replace('Other links:','<em>Other links:</em>');
+
+			let desctxt = lines[2].substring(0,lines[2].indexOf(':'))
+			let description = lines[2].replace(desctxt+':','<em>'+desctxt+':</em>');
+
+			let ecotxt = lines[3].substring(0,lines[3].indexOf(':'))
+			let ecology = lines[3].replace(ecotxt + ':','<em>'+ecotxt+':</em>');
+
+			let interestingtxt = lines[4].substring(0,lines[4].indexOf(':'))
+			let interesting = lines[4].replace(interestingtxt + ':','<em>'+interestingtxt+':</em>');
+
+			let othertxt = lines[5].substring(0,lines[5].indexOf(':'))
+			let other = lines[5].replace(othertxt+':','<em>'+othertxt+':</em>');
+			
 			let link = lines[6];
 			data.push({
 				name:name,
@@ -141,3 +157,4 @@ function populateTrees(data)
 }
 loadLanguage('english', () => {setLanguage('english')});
 loadLanguage('afrikaans');
+loadLanguage('french');

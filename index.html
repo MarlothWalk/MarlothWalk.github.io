@@ -3,6 +3,8 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Oregano&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
+	<meta name="google" content="notranslate">
+	<meta http-equiv="Content-Language" content="en">
 	<title>Marlothii Conservancy Self-Guided Tree Walk</title>	
 	<link rel="stylesheet" href="reset.css" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css">
@@ -20,9 +22,13 @@
 </head>
 <body>
 	<section id="hero">
-		<span class="language" id="changelanguage" onclick="toggleLanguage()">Afrikaans</span>
+		<div class="languages">
+			<span id="changelanguage" onclick="toggleLanguage(this)">Afrikaans</span>
+			<span id="changelanguage2" onclick="toggleLanguage(this)">French</span>
+		</div>
 		<h1 class="english">Marlothii Conservancy<br />Self-Guided<br />Tree Walk</h1>
 		<h1 class="afrikaans hide">Marlothii Bewarea<br />Self-Begeleide<br />Boom Wandelroete</h1>
+		<h1 class="french hide">Marlothii Conservancy<br />Guide pour la promenade découverte<br /> des arbres de Marloth Park</h1>
 	</section>
 	<section class="description english">
 		<p>We thank the following individuals and businesses who have sponsored this Self-Guided Tree Walk or Drive:</p>
@@ -48,6 +54,30 @@
 		Account no: 62080272653<br />
 		Branch code: 270952<br />
 		Reference: Your Surname and 'tree project'</p>
+	</section>
+	<section class="description french">
+		<p>Nous remercions toutes les personnes et entreprises qui se sont impliquées dans la réalisation de cette promenade ( qui peut se faire à pied ou en voiture ), et plus particulièrement :</p>
+		<ul>
+			<li>Nico et Jasmyn De Bruyn - De Bruyn Huis</li>
+			<li>Matilda Bester - Meerkargat Self Catering Cottage</li>
+			<li>Derrick et Sanet Bruins - Lich</li>
+		</ul>
+		<img src="images/logo.png" alt="Marlothii Conservancy Logo">
+	    <p>Marlothii Conservancy est une association de passionnés qui travaillent à protéger et améliorer l environnement de Marloth Park  site exceptionnel dans le bush sud africain, pour que les résidents et visiteurs du parc puissent profiter de sa beauté et de sa vie sauvage.</p>
+	    <p>Pour celà, les actions du Marlothii Conservancy sont les suivantes :</p>
+	    <ul>
+	    	<li>Repérer et supprimer les plantes " aliens" ( que l on ne trouve pas à l'état naturel dans le bush).</li>
+	    	<li>Permettre à tous résidents de faire apposer sur ses arbres le nom, afin que chacun dans Marloth Park ait une parfaite connaissance des arbres du parc.</li>
+	    	<li>Maintenir en état le point d eau favori des girafes à Gruispan.</li>
+	    	<li>Organiser une promenade écologique et d observation des oiseaux ouvertes à tous, tous les troisièmes samedi du mois à 6h00 au Parc Van Royen, rue Maroelen Marloth Park</li>
+	    	<li>Donner toutes informations relatives à  l équilibre écologique si particulier de Marloth Park. </li>
+	    </ul>
+	    <p>Vous voulez nous aider ! Faites un don à :</p>
+		<p class="details">
+		Banque : First National Bank<br />
+		Compte : 62080272653<br />
+		Code Agence : 270952<br />
+		Référence : Your Surname and 'tree project'</p>
 	</section>
 	<section class="description afrikaans hide">
 		<p>Ons bedank graag die volgende individue of besighede wat hierdie self begeleide boom wandelroete geborg het:</p>
@@ -115,6 +145,27 @@
 			Die diere kry voorkeur op die paaie.<br />
 			<br />
 			Geniet die dag.</p>
+	</section>
+	<section class="outro french hide">
+		<img src="images/end.jpg" alt="Seat near tree">
+		<p>Merci pour le temps que vous avez consacré à cette promenade de découverte de la flore et des arbres du bush, et bravo pour votre visite à  Marloth Park !</p>
+		<p>Nous espérons vous revoir très bientôt.</p>
+		<p>Pour tout contact avec notre association : <a href="mailto:marlothiiconservancy@gmail.com">marlothiiconservancy@gmail.com</a></p>
+		<h1>Souvenez vous</h1>
+		<div id="poem">
+			<p class="one">Petits et charmants...</p>
+			<img class="tortoise" src="images/tortoise.png" alt="Cartoon Tortoise">
+			
+			<p class="two">Ou très imposants</p>
+			<img class="giraffe" src="images/giraffe.png" alt="Cartoon Giraffe">
+			<p class="three">On les aime tous autant!</p>
+			<img class="animals" src="images/animals.png" alt="Cartoon Zebra, Cartoon Kudu and Cartoon Warthog">
+		</div>
+		
+		<p> Conduisez lentement, et <br />
+		Laissez toujours la priorité aux animaux du bush !!<br />
+		<br />
+		Belle journée </p>
 	</section>
 	<section class="outro english">
 		<img src="images/end.jpg" alt="Seat near tree">
